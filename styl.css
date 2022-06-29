@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  background-color: #02042b;
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px;
+}
+
+main .show-window {
+  color: aliceblue;
+  font-size: 50px;
+  padding-right: 25px;
+}
+
+main .key-pad {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+main .key-pad .key {
+  padding: 25px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+main .key-pad .num {
+  background-color: #464646;
+}
+
+main .key-pad .operation {
+  background-color: #ffb835;
+}
+
+main .key-pad .first-line {
+  background-color: #b9b9b9;
+}
+/*# sourceMappingURL=styl.css.map */
